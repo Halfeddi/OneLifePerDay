@@ -33,7 +33,7 @@ Yeah this plugin is free, do whatever you want with it. Use it, edit it, sell it
    `/excludeplayer` `<player>`
 - onelifeperday.**includeplayer:** Include a player into the consequences of death.
    `/includeplayer` `<player>`
-- onelifeperday.**livesrestorehours:** Set the hours in a defined time zone where all dead players' lives are restored.
+- onelifeperday.**livesrestorehours:** Set the hours in a defined time zone where all dead players' lives are restored. Format: Integer(0 -> 23)
    `/livesrestorehours` `<hour1>` `<hour2>` ...
 - minecraft.**pardon:** Lift up ban of a player (Works the same for this plugin).
    `/pardon` `<player>`
