@@ -1,0 +1,31 @@
+name: OneLifePerDay
+version: '1.0-SNAPSHOT'
+main: me.tbdhalfeddi.onelifeperday.OneLifePerDay
+description: A plugin that bans players when they die, and brings them back at a specific time everyday.
+author: tbdHalfeddi
+api-version: '1.19'
+commands:
+  restoreplayer:
+    description: Restores a player's lives and unbans them.
+    usage: /<command> count
+    permission: onelifeperday.restoreplayer
+  livesperplayer:
+    description: Set how many lives each player starts with.
+    usage: /<command> count
+    permission: onelifeperday.livesperplayer
+  timezone:
+    description: Set the time zone for life-restore hours.
+    usage: /<command> regionID
+    permission: onelifeperday.timezone
+  excludeplayer:
+    description: Exclude a player from the consequences of death.
+    usage: /<command> username
+    permission: onelifeperday.excludeplayer
+  includeplayer:
+    description: Include a player into the consequences of death.
+    usage: /<command> username
+    permission: onelifeperday.includeplayer
+  livesrestorehours:
+    description: Set the hours in a defined time zone where all dead players' lives are restored.
+    usage: /<command> hour1 hour2 ...
+    permission: onelifeperday.livesrestorehours
